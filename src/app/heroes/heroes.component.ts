@@ -14,7 +14,7 @@ export class HeroesComponent implements OnInit {
     name :'Torocy'
   };
 
-  selectedHero : Hero;
+  //selectedHero : Hero;
   heroes: Hero[];
 
   constructor( private heroService : HeroService) { }
@@ -24,9 +24,9 @@ export class HeroesComponent implements OnInit {
     this.getHeroes();
   }
   
-  onSelect(hero: Hero): void {
-    this.selectedHero = hero;
-  }
+  //onSelect(hero: Hero): void {
+    //this.selectedHero = hero;
+  //s}
   //function to retrieve the heroes from the service.
   getHeroes(): void{
     //subscribe in heroes component.
